@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 import fileinput
 
-# 1.py < input.txt
+# ./1.py < input.txt
 data = [int(line) for line in fileinput.input()]
 
 for i in range(len(data)):
